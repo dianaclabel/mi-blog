@@ -105,14 +105,15 @@ nav .profile-link a {
   background-color: var(--main-color);
   display: grid;
   align-items: center;
-}
-.home-main-button {
   font-weight: 700;
   font-size: 18px;
   border-style: none;
+  text-align: center;
   border-radius: 15px;
 }
-button:hover {
+
+.home-main-button:hover,
+.profile-link a:hover {
   background-color: #72ecce;
   transform: scale(1.1);
 }
