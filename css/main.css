@@ -21,6 +21,11 @@ a {
   left: 0;
   right: 0;
 }
+.grid-container {
+  max-width: 980px;
+  margin: auto;
+}
+
 header {
   width: 100%;
   height: 140px;
@@ -125,32 +130,35 @@ nav .profile-link a {
 
 .blogs-news-container {
   background-color: #e6e9ed;
-  padding: 0 60px 40px;
+  padding: 0 50px 40px;
 }
 .blogs-main-new {
   display: grid;
   grid-template-columns: 2fr 1fr;
   grid-template-rows: 2fr;
-  padding: 0 55px;
 }
+.blogs-main-new h3 {
+  padding-left: 30px;
+}
+
 .blogs-news-img-container {
   grid-column: 1;
+  padding-left: 30px;
 }
 .blogs-news-img-container img {
-  width: 85%;
+  width: 83%;
 }
 .blogs-news-info-container {
   grid-column: 2;
+  padding-right: 30px;
 }
-.blogs-news-info-container h2 {
-  font-size: 30px;
-}
+
 .blogs-news-info-container p {
   margin-bottom: 35px;
 }
 
 .blogs-posts-container {
-  padding: 0 60px 40px;
+  padding: 0 50px 40px;
   text-align: center;
 }
 .blogs-posts-container h3 {
